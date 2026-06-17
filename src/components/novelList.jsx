@@ -1,5 +1,4 @@
-import {NovelItem} from "./novelItem.jsx";
-
+import {NovelItem} from "./novelItem.jsx";import '../css/novelList.css'
 const NovelList = () => {
     const novels = [
         {
@@ -56,13 +55,69 @@ const NovelList = () => {
             score: 4.8,
             viewCount: 178,
         },
+        {
+            id: 7,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
+        {
+            id: 8,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
+        {
+            id: 9,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
+        {
+            id: 10,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
+        {
+            id: 11,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
+        {
+            id: 12,
+            title: "星間冒険譚",
+            author: "渡辺健一",
+            content: "宇宙探検隊が繰り広げるスリリングな銀河冒険記です。",
+            state: "연재중",
+            score: 4.8,
+            viewCount: 178,
+        },
     ];
 
     return (
         <>
-            {novels.map((novel, index) =>
-             (   <NovelItem {...novel} key={novel.title+index}></NovelItem>)
-            )}
+            <div className={"novel-list-container-1r3c"}>
+                    {novels.map((novel, index) =>
+                        (   <NovelItem {...novel} key={novel.title+index}></NovelItem>)
+                    )}
+            </div>
         </>
     )
 }

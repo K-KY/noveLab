@@ -1,0 +1,9 @@
+.novel-item-container {
+    min-height: 220px;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background-color: white;
+
+    box-sizing: border-box;
+}

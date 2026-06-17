@@ -1,0 +1,15 @@
+.novel-info-container {
+    padding-bottom: 1rem;
+    border-bottom: #9ca3af solid 0.3px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.novel-info-author {
+    padding-bottom: 1rem;
+    color: #777;
+}
+
+.novel-info-content {
+    color: #777;
+}

@@ -1,0 +1,25 @@
+.novel-state-container {
+    background: linear-gradient(
+            90deg,
+            #f3e8ff 0%,
+            #faf5ff 45%,
+            #fff7e6 100%
+    );
+
+    min-height: 3rem;
+    border-radius: 10px 10px 0 0;
+    align-content: center;
+}
+.novel-state-chip {
+    background-color: chartreuse;
+    width: fit-content;
+    margin: 1rem;
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.novel-state-chip-content {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
