@@ -1,0 +1,61 @@
+
+/* 상단 정보 */
+
+.novel-detail-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.ndh-back-button {
+    width: fit-content;
+    border: none;
+    background: none;
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    color: #8b5cf6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ndh-back-button:hover {
+    opacity: 0.75;
+}
+
+.ndh-back-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.ndh-title-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ndh-title {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #111827;
+}
+
+.ndh-author {
+    margin: 0;
+    color: #64748b;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.ndh-description {
+    margin: 0;
+    color: #475569;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
