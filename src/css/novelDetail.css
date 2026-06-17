@@ -1,0 +1,26 @@
+.novel-detail-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.novel-detail-inner {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2rem 3rem 4rem;
+    box-sizing: border-box;
+}
+
+.nd-episode-section {
+    width: 100%;
+    margin-top:  2rem;
+}
+.nd-episode-section-title {
+    margin: 0 0 1rem;
+    color: #111827;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
