@@ -19,3 +19,16 @@ graph TB
     novelScore --> viewCount
     
 ```
+
+```mermaid
+graph TB
+    app --> header
+    app --> novelDetailPage
+    novelDetailPage --> novelDetailHeader
+    novelDetailPage --> novelMeta
+    novelDetailPage --> episodeSearchBar
+    novelDetailPage --> episodeList
+    episodeList --> episodeItem
+    
+    
+```
