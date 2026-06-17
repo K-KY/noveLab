@@ -121,7 +121,8 @@ const NovelList = () => {
         <>
             <div className={"novel-list-container-1r3c"}>
                     {novels.map((novel, index) =>
-                        (   <NovelItem onClick={(itemId) => onItemClick(itemId)} {...novel} key={novel.title+index}></NovelItem>)
+                        (   <NovelItem onClick={(itemId) => onItemClick(itemId)}
+                                       {...novel} key={novel.title+index}></NovelItem>)
                     )}
             </div>
         </>
