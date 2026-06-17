@@ -3,9 +3,9 @@ import {NovelStateBar} from "./novelStateBar.jsx";
 import {NovelInfo} from "./novelInfo.jsx";
 import {NovelScore} from "./novelScore.jsx";
 
-const NovelItem = ({id, title, author, content, state, score, viewCount}) => {
+const NovelItem = ({id, title, author, content, state, score, viewCount, onClick}) => {
     function onItemClick() {
-        console.log(id);
+        onClick(id);
     }
     return (
         <>

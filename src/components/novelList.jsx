@@ -1,5 +1,7 @@
 import {NovelItem} from "./novelItem.jsx";import '../css/novelList.css'
+import {useNavigate} from "react-router-dom";
 const NovelList = () => {
+    const navigate = useNavigate()
     const novels = [
         {
             id: 1,
@@ -111,11 +113,15 @@ const NovelList = () => {
         },
     ];
 
+    function onItemClick(itemId) {
+        console.log(itemId);
+        navigate("/novels/" + itemId);
+    }
     return (
         <>
             <div className={"novel-list-container-1r3c"}>
                     {novels.map((novel, index) =>
-                        (   <NovelItem {...novel} key={novel.title+index}></NovelItem>)
+                        (   <NovelItem onClick={(itemId) => onItemClick(itemId)} {...novel} key={novel.title+index}></NovelItem>)
                     )}
             </div>
         </>
