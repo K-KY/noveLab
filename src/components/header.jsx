@@ -1,11 +1,13 @@
 import {HeaderIcon} from "./headerIcon.jsx";
 import mainIcon from "../assets/mainIcon.png";
 import '../css/header.css'
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
+    const navigate = useNavigate()
     const onHeaderClick = () => {
-        console.log("onHeaderClick");
-    }
+        navigate("/")
+    };
     return (
         <>
             <div className={'header-container'}>
