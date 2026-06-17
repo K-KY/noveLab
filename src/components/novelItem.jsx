@@ -1,6 +1,7 @@
 import '../css/novelItem.css'
 import {NovelStateBar} from "./novelStateBar.jsx";
 import {NovelInfo} from "./novelInfo.jsx";
+import {NovelScore} from "./novelScore.jsx";
 
 const NovelItem = ({id, title, author, content, state, score, viewCount}) => {
     function onItemClick() {
@@ -16,10 +17,7 @@ const NovelItem = ({id, title, author, content, state, score, viewCount}) => {
                     <NovelInfo title={title} content={content} author={author}></NovelInfo>
 
                     <div>
-                        <p>
-                            score: {score}
-                        </p>
-                        <p>{viewCount}</p>
+                        <NovelScore score={score} viewCount={viewCount} ></NovelScore>
                     </div>
                 </div>
         </>

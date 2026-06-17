@@ -1,0 +1,25 @@
+.novel-score-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 1rem;
+
+    box-sizing: border-box;
+}
+
+.novel-score-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    color: #111827;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.novel-score-icon {
+    display: block;
+    flex: 0 0 auto;
+}
