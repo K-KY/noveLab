@@ -1,8 +1,8 @@
 import "../css/episodeItem.css"
 
-const EpisodeItem = ({ episode }) => {
+const EpisodeItem = ({ episode, onItemClick }) => {
     return (
-        <div  className="episode-item">
+        <div className="episode-item" onClick={() => onItemClick(episode.id)}>
             <div className={"episode-main"}>
                 <h3 className={"episode-title"} >{episode.title}</h3>
 

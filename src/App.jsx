@@ -3,6 +3,7 @@ import { Header } from "./components/header.jsx";
 import { Home } from "./components/home.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {NovelDetail} from "./components/novelDetail.jsx";
+import {EpisodeViewer} from "./components/episodeViewer.jsx";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/novels/:novelId" element={<NovelDetail />} />
+                <Route path="/novels/:novelId/:epId" element={<EpisodeViewer />} />
             </Routes>
         </BrowserRouter>
     );
