@@ -1,0 +1,31 @@
+.novel-meta-list {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    margin-top: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.novel-meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.novel-meta-label {
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.novel-meta-value {
+    color: #111827;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.novel-meta-value.highlight {
+    color: #7c3aed;
+    font-weight: 700;
+}
