@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "../../css/translateToggleButton.css";
 
-const TranslateToggleButton = () => {
+const TranslateToggleButton = ({toggleSubtitle}) => {
     const [showTranslate, setShowTranslate] = useState(false);
 
     const handleClick = () => {
-        setShowTranslate((prev) => !prev);
+        toggleSubtitle(!showTranslate);
+        setShowTranslate(!showTranslate);
     };
 
     return (

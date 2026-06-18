@@ -2,7 +2,7 @@ import {useNavigate} from "react-router-dom";
 import {EpisodeTitle} from "./episodeTitle.jsx";
 import {TranslateToggleButton} from "./TranslateToggleButton.jsx";
 import "../../css/episodeTop.css"
-const EpisodeTop = ({ episode, params }) => {
+const EpisodeTop = ({ episode, params, toggleSubtitle }) => {
 
     const navigate = useNavigate()
     function backPage() {
@@ -16,7 +16,7 @@ const EpisodeTop = ({ episode, params }) => {
                 목록으로 돌아가기
             </button>
             <EpisodeTitle episode={episode} />
-            <TranslateToggleButton />
+            <TranslateToggleButton toggleSubtitle={toggleSubtitle}/>
         </section>
     );
 };

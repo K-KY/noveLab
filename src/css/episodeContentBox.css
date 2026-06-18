@@ -12,7 +12,7 @@
 }
 
 .episode-content-paragraph {
-    margin: 0 0 1.45rem;
+    margin: 1rem 0 1rem;
 
     color: #111827;
     font-size: 1.05rem;
@@ -23,6 +23,26 @@
 
 .episode-content-paragraph:last-child {
     margin-bottom: 0;
+}
+
+.episode-content-subtitle {
+    margin-top: 0.65rem;
+    padding: 0.65rem 0.9rem;
+
+    color: #374151;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.7;
+
+    border: 1px solid #f1eafe;
+    border-radius: 4px;
+
+    background: linear-gradient(
+            90deg,
+            #faf5ff 0%,
+            #fdf7ff 45%,
+            #fffdf3 100%
+    );
 }
 
 @media (max-width: 900px) {
