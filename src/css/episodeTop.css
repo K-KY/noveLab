@@ -1,0 +1,41 @@
+.episode-top {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: start;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.ep-back-button {
+    width: fit-content;
+    border: none;
+    background: none;
+    padding: 0;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    color: #8b5cf6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ep-back-button:hover {
+    opacity: 0.75;
+}
+
+.ep-back-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+
+@media (max-width: 900px) {
+    .episode-viewer-top {
+        grid-template-columns: 1fr;
+        row-gap: 1.25rem;
+        margin-bottom: 2rem;
+    }
+}
