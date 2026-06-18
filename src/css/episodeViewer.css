@@ -1,0 +1,20 @@
+.episode-viewer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.episode-viewer-inner {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2.25rem 3rem 5rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    .episode-viewer-inner {
+        padding: 1.5rem 1.25rem 4rem;
+    }
+}
