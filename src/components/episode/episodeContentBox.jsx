@@ -1,4 +1,4 @@
-import "../css/episodeContentBox.css"
+import "../../css/episodeContentBox.css"
 
 const EpisodeContentBox = ({ paragraphs }) => {
     return (

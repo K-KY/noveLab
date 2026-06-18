@@ -1,4 +1,4 @@
-import "../css/episodeSearchBar.css"
+import "../../css/episodeSearchBar.css"
 
 const EpisodeSearchBar = ({place}) => {
     return (

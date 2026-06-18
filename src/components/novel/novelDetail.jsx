@@ -1,8 +1,8 @@
-import "../css/novelDetail.css";
-import { NovelDetailHeader } from "./NovelDetailHeader.jsx";
+import "../../css/novelDetail.css";
+import { NovelDetailHeader } from "./novelDetailHeader.jsx";
 import { NovelMeta } from "./NovelMeta.jsx";
-import { EpisodeSearchBar } from "./EpisodeSearchBar.jsx";
-import { EpisodeList } from "./EpisodeList.jsx";
+import { EpisodeSearchBar } from "../episode/EpisodeSearchBar.jsx";
+import { EpisodeList } from "../episode/EpisodeList.jsx";
 import {useEffect} from "react";
 import {useParams} from "react-router-dom";
 

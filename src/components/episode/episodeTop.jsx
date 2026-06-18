@@ -1,7 +1,7 @@
 import {useNavigate} from "react-router-dom";
 import {EpisodeTitle} from "./episodeTitle.jsx";
 import {TranslateToggleButton} from "./TranslateToggleButton.jsx";
-import "../css/episodeTop.css"
+import "../../css/episodeTop.css"
 const EpisodeTop = ({ episode, params }) => {
 
     const navigate = useNavigate()

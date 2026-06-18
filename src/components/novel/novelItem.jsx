@@ -1,4 +1,4 @@
-import '../css/novelItem.css'
+import '../../css/novelItem.css'
 import {NovelStateBar} from "./novelStateBar.jsx";
 import {NovelInfo} from "./novelInfo.jsx";
 import {NovelScore} from "./novelScore.jsx";

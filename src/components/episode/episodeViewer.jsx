@@ -3,7 +3,7 @@ import {useEffect} from "react";
 import {EpisodeTop} from "./episodeTop.jsx";
 import {EpisodeContentBox} from "./episodeContentBox.jsx";
 import {EpisodeNavigation} from "./episodeNavigation.jsx";
-import "../css/episodeViewer.css"
+import "../../css/episodeViewer.css"
 
 const dummyEpisode = {
     novelTitle: "Re:ゼロから始める異世界生活",

@@ -1,4 +1,4 @@
-import "../css/episodeItem.css"
+import "../../css/episodeItem.css"
 
 const EpisodeItem = ({ episode, onItemClick }) => {
     return (

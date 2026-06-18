@@ -1,5 +1,5 @@
 import {useNavigate} from "react-router-dom";
-import "../css/novelDetailHeader.css"
+import "../../css/novelDetailHeader.css"
 const NovelDetailHeader = ({ novel }) => {
     const navigate = useNavigate()
     function backPage() {

@@ -1,5 +1,5 @@
 import { EpisodeItem } from "./EpisodeItem.jsx";
-import "../css/episodeList.css"
+import "../../css/episodeList.css"
 import {useNavigate} from "react-router-dom";
 const EpisodeList = ({ episodes }) => {
     const navigate = useNavigate();

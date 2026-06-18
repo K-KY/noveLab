@@ -1,4 +1,4 @@
-import "../css/episodeTitle.css"
+import "../../css/episodeTitle.css"
 const EpisodeTitle = ({ episode }) => {
     return (
         <div className="episode-title">

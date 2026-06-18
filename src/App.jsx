@@ -2,8 +2,8 @@ import './App.css'
 import { Header } from "./components/header.jsx";
 import { Home } from "./components/home.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import {NovelDetail} from "./components/novelDetail.jsx";
-import {EpisodeViewer} from "./components/episodeViewer.jsx";
+import {NovelDetail} from "./components/novel/novelDetail.jsx";
+import {EpisodeViewer} from "./components/episode/episodeViewer.jsx";
 
 function App() {
     return (

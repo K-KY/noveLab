@@ -1,4 +1,4 @@
-import "../css/novelScore.css";
+import "../../css/novelScore.css";
 const NovelScore = ({ score, viewCount }) => {
     return (
         <div className="novel-score-container">

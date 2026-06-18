@@ -1,4 +1,4 @@
-import '../css/novelState.css'
+import '../../css/novelState.css'
 
 const NovelStateBar = ({state}) => {
     return (

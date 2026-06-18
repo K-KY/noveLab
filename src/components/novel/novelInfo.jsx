@@ -1,4 +1,4 @@
-import "../css/novelInfo.css"
+import "../../css/novelInfo.css"
 
 const NovelInfo = ({title, content, author}) => {
     return (

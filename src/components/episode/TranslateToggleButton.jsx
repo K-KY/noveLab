@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../css/translateToggleButton.css";
+import "../../css/translateToggleButton.css";
 
 const TranslateToggleButton = () => {
     const [showTranslate, setShowTranslate] = useState(false);

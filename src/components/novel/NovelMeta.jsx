@@ -1,4 +1,4 @@
-import "../css/novelMeta.css"
+import "../../css/novelMeta.css"
 
 const NovelMeta = ({novel}) => {
     return (

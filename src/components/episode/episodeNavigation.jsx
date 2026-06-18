@@ -1,4 +1,4 @@
-import "../css/EpisodeNavigation.css";
+import "../../css/episodeNavigation.css";
 
 const EpisodeNavigation = ({ currentEpisode, hasPrev, hasNext }) => {
     return (

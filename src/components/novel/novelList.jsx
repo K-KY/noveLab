@@ -1,4 +1,4 @@
-import {NovelItem} from "./novelItem.jsx";import '../css/novelList.css'
+import {NovelItem} from "./novelItem.jsx";import '../../css/novelList.css'
 import {useNavigate} from "react-router-dom";
 const NovelList = () => {
     const navigate = useNavigate()
