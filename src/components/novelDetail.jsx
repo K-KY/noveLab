@@ -108,7 +108,7 @@ const NovelDetail = () => {
             <div className={"novel-detail-inner"}>
                 <NovelDetailHeader novel={dummyNovel} />
                 <NovelMeta novel={dummyNovel} />
-                <EpisodeSearchBar />
+                <EpisodeSearchBar place={"화수나 제목으로 검색하세요"} />
 
                 <section className={"nd-episode-section"}>
                     <h2 className={"nd-episode-section-title"}>

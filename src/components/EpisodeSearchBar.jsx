@@ -1,6 +1,6 @@
 import "../css/episodeSearchBar.css"
 
-const EpisodeSearchBar = () => {
+const EpisodeSearchBar = ({place}) => {
     return (
         <div className={"episode-search-bar"}>
             <svg
@@ -23,7 +23,7 @@ const EpisodeSearchBar = () => {
             <input
                 className="episode-search-input"
                 type="text"
-                placeholder="화수나 제목으로 검색하세요..."
+                placeholder={place}
             />
         </div>
     );
