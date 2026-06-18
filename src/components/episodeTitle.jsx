@@ -1,7 +1,7 @@
 import "../css/episodeTitle.css"
-const EpisodeTitleBlock = ({ episode }) => {
+const EpisodeTitle = ({ episode }) => {
     return (
-        <div className="episode-title-block">
+        <div className="episode-title">
             <p className="episode-novel-title">{episode.novelTitle}</p>
             <h1 className="episode-viewer-title">
                 {episode.title}
@@ -10,4 +10,4 @@ const EpisodeTitleBlock = ({ episode }) => {
     );
 };
 
-export { EpisodeTitleBlock };
+export { EpisodeTitle };
