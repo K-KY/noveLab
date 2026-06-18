@@ -1,0 +1,73 @@
+.episode-navigation {
+    width: 100%;
+    max-width: 760px;
+    margin: 1.8rem auto 0;
+
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.episode-nav-button {
+    width: fit-content;
+    min-width: 6.2rem;
+    min-height: 2.4rem;
+
+    padding: 0 1rem;
+    box-sizing: border-box;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.episode-nav-button-prev {
+    justify-self: start;
+    background-color: #ffffff;
+    color: #111827;
+}
+
+.episode-nav-button-next {
+    justify-self: end;
+    border-color: #8b5cf6;
+    background-color: #8b5cf6;
+    color: #ffffff;
+}
+
+.episode-nav-button:hover:not(:disabled) {
+    opacity: 0.82;
+}
+
+.episode-nav-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.current-episode-label {
+    color: #64748b;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .episode-navigation {
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+
+    .episode-nav-button-prev,
+    .episode-nav-button-next {
+        justify-self: stretch;
+        width: 100%;
+    }
+
+    .current-episode-label {
+        justify-self: center;
+        order: -1;
+    }
+}
