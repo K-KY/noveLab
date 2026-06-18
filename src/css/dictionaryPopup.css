@@ -1,0 +1,71 @@
+.selection-dictionary-popup {
+    position: absolute;
+    z-index: 1000;
+
+    width: 360px;
+    padding: 1rem;
+    box-sizing: border-box;
+
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+
+    background-color: #ffffff;
+    box-shadow:
+            0 12px 30px rgba(15, 23, 42, 0.12),
+            0 4px 10px rgba(15, 23, 42, 0.08);
+}
+
+.selection-popup-close-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.9rem;
+
+    border: none;
+    background: none;
+    padding: 0;
+
+    color: #111827;
+    font-size: 1.8rem;
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.selection-popup-section {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.selection-popup-section:first-of-type {
+    padding-top: 0.2rem;
+}
+
+.selection-popup-section:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.selection-popup-label {
+    margin: 0 0 0.45rem;
+
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.selection-popup-main-text {
+    margin: 0;
+
+    color: #111827;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.selection-popup-description {
+    margin: 0;
+
+    color: #475569;
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
